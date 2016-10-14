@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>GitHub User lookup API Project</title>
@@ -14,13 +15,15 @@
       <label for="username">Enter a username:</label>
       <input id="username" type="text">
       <button class="btn-success" id="usernameInput">Get User Information!</button>
-      <div class="showUser"></div>
-      <table>
-        <tr>
-          <th>
-          <th>
-        </tr>
-      </table>
+      <div class="showUser">
+        <table>
+          <tr>
+            <th>Repository Name</th>
+            <th>Description</th>
+            <th>link</th>
+          </tr>
+        </table>
+      </div>
     </div>
   </body>
 </html>
