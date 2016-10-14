@@ -1,9 +1,11 @@
 {
-  "name": "hello",
+  "name": "gitHub-Api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "utf-8-validate": "^1.2.1"
+  },
   "devDependencies": {
     "bower-files": "^3.14.1",
     "browser-sync": "^2.17.3",
