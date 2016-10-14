@@ -16,3 +16,7 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
     background-color: #659EC7;
 }
+
+.showUser {
+  display: block;;
+}
