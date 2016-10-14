@@ -1,4 +1,4 @@
-var User = require('./../js/gitHib.js');
+var User = require('./../js/gitHub.js');
 
 var displayUserData = function(username, login)
 {
@@ -11,5 +11,5 @@ $(document).ready(function () {
     var username = $("#location").val();
     $("#location").val("");
     currentUserObject.getUser(username, displayUserData);
-  })
+  });
 });
